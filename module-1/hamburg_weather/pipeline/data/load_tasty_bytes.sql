@@ -293,6 +293,7 @@ raw zone table load
 USE WAREHOUSE demo_build_wh;
 
 
+
 -- country table load
  COPY INTO {{env}}_tasty_bytes.raw_pos.country
  FROM @{{env}}_tasty_bytes.public.s3load/raw_pos/country/;
